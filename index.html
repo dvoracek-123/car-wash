@@ -1,181 +1,444 @@
 <!doctype html>
 <html lang="cs">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gloss Garage | Ruční auto detailing v Praze 6</title>
-<meta name="description" content="Ruční auto detailing v Praze 6 — čištění interiéru, kompletní detailing a ochrana laku. Studentský ukázkový web.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gloss Garage | Ruční auto detailing v Praze 6</title>
+
+  <meta
+    name="description"
+    content="Ruční auto detailing v Praze 6 — čištění interiéru, kompletní detailing a ochrana laku. Studentský ukázkový web."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <a href="#hlavni-obsah" class="skip-link">Přejít na obsah</a>
 
 <header class="site-header" id="domu">
   <div class="wrap header-row">
-    <a href="#domu" class="logo" aria-label="Gloss Garage, domů"><span class="logo-mark" aria-hidden="true">GG</span>Gloss Garage</a>
+
+    <a href="#domu" class="logo" aria-label="Gloss Garage, domů">
+      <span class="logo-mark" aria-hidden="true">GG</span>
+      <span>Gloss Garage</span>
+    </a>
+
     <nav class="main-nav" aria-label="Hlavní navigace">
       <a href="#sluzby">Služby</a>
       <a href="#proces">Jak to funguje</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
-    <a href="#kontakt" class="btn btn-primary">Rezervovat termín</a>
+
+    <a href="#kontakt" class="header-cta">
+      Rezervovat termín
+    </a>
+
     <details class="mobile-menu">
-      <summary><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span></summary>
+      <summary>
+        <span class="menu-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </summary>
+
       <nav aria-label="Mobilní navigace">
         <a href="#sluzby">Služby</a>
         <a href="#proces">Jak to funguje</a>
-        <a href="#kontakt">Kontakt a termín</a>
+        <a href="#kontakt">Kontakt</a>
       </nav>
     </details>
+
   </div>
 </header>
+
 
 <main id="hlavni-obsah">
 
   <!-- HERO -->
+
   <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-text">
-        <p class="location-line">Praha 6 · Bubeneč</p>
-        <h1>Auto, o které je vidět, že se o něj staráte.</h1>
-        <p class="hero-lead">
-          Ruční čištění interiéru i exteriéru, bez spěchu a bez zbytečné chemie.
-          Každé auto projdeme společně s vámi, než si ho odvezete.
-        </p>
-        <div class="hero-actions">
-          <a href="#sluzby" class="btn btn-primary">Vybrat službu</a>
-          <a href="#proces" class="btn btn-ghost">Jak probíhá návštěva</a>
+    <div class="wrap">
+
+      <div class="hero-grid">
+
+        <div class="hero-copy">
+
+          <p class="kicker">
+            Praha 6 · Bubeneč
+          </p>
+
+          <h1>
+            Detailing, který začíná <em>stavem vašeho auta.</em>
+          </h1>
+
+          <p class="hero-lead">
+            Ruční péče o interiér, exteriér a lak bez zbytečných balíčků.
+            Nejdřív se podíváme na auto, potom doporučíme, co opravdu potřebuje.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#kontakt" class="button button-dark">
+              Domluvit termín
+            </a>
+
+            <a href="#sluzby" class="text-link">
+              Prohlédnout služby
+              <span aria-hidden="true">↘</span>
+            </a>
+          </div>
+
         </div>
+
+
+        <figure class="hero-image">
+          <img
+            src="img/hero-myti-1500.jpg"
+            alt="Ruční mytí černého vozu před detailingem"
+            fetchpriority="high"
+          >
+
+          <figcaption>
+            <span>01</span>
+            Ruční péče od prvního oplachu po poslední detail.
+          </figcaption>
+        </figure>
+
       </div>
-      <figure class="hero-media">
-        <img src="img/hero-myti-1500.jpg" alt="Ruční mytí černého vozu před detailingem" fetchpriority="high">
-        <figcaption>Ruční péče, přesná práce, čistý výsledek.</figcaption>
-      </figure>
-    </div>
-    <div class="wrap service-note" aria-label="Informace o službách">
-      <p><strong>Pracujeme jen po objednání.</strong> Vůz předem prohlédneme a cenu potvrdíme podle jeho velikosti a stavu.</p>
-      <a href="#kontakt">Popsat svůj vůz <span aria-hidden="true">→</span></a>
+
+
+      <div class="hero-bottom">
+
+        <p>
+          <strong>Pracujeme pouze po objednání.</strong>
+          Každý vůz předem prohlédneme a cenu potvrdíme podle jeho velikosti a stavu.
+        </p>
+
+        <a href="#kontakt">
+          Popsat svůj vůz
+          <span aria-hidden="true">→</span>
+        </a>
+
+      </div>
+
     </div>
   </section>
+
 
   <!-- SLUŽBY -->
+
   <section class="services" id="sluzby">
+
     <div class="wrap">
-      <div class="section-head">
-        <h2>Služby a ceník</h2>
-        <p>Vyberte jednu službu, nebo spolu sestavíme balíček podle stavu vozu.</p>
+
+      <div class="section-intro">
+        <div>
+          <p class="section-number">01 / Služby</p>
+
+          <h2>
+            Co můžeme<br>
+            udělat s vaším autem.
+          </h2>
+        </div>
+
+        <p class="section-description">
+          Rozsah práce vždy přizpůsobujeme konkrétnímu vozu.
+          Uvedené ceny jsou orientační a začínají na uvedené částce.
+        </p>
       </div>
 
-      <ul class="price-list">
-        <li class="price-row">
-          <div class="price-row-main">
+
+      <ul class="service-list">
+
+        <li class="service-item">
+
+          <span class="service-number">01</span>
+
+          <div class="service-content">
             <h3>Interiér</h3>
-            <p>Hloubkové čištění sedaček, plastů, koberců i zavazadlového prostoru. Rozsah určíme podle skutečného stavu interiéru.</p>
+
+            <p>
+              Hloubkové čištění sedaček, plastů, koberců
+              i zavazadlového prostoru. Rozsah určíme podle
+              skutečného stavu interiéru.
+            </p>
           </div>
-          <div class="price-row-value">
-            <span class="from">od</span>
-            <span class="amount">1 900 Kč</span>
+
+          <div class="service-price">
+            <span>od</span>
+            <strong>1 900 Kč</strong>
           </div>
+
         </li>
-        <li class="price-row">
-          <div class="price-row-main">
+
+
+        <li class="service-item">
+
+          <span class="service-number">02</span>
+
+          <div class="service-content">
             <h3>Kompletní detailing</h3>
-            <p>Poctivá péče o interiér i exteriér včetně dekontaminace laku a základní ochrany. Pro auta, která potřebují dát do pořádku jako celek.</p>
+
+            <p>
+              Péče o interiér i exteriér včetně dekontaminace
+              laku a základní ochrany. Pro auta, která potřebují
+              dát do pořádku jako celek.
+            </p>
           </div>
-          <div class="price-row-value">
-            <span class="from">od</span>
-            <span class="amount">4 900 Kč</span>
+
+          <div class="service-price">
+            <span>od</span>
+            <strong>4 900 Kč</strong>
           </div>
+
         </li>
-        <li class="price-row">
-          <div class="price-row-main">
+
+
+        <li class="service-item">
+
+          <span class="service-number">03</span>
+
+          <div class="service-content">
             <h3>Ochrana laku</h3>
-            <p>Jednokrokové leštění, vosk nebo keramická ochrana. Vhodné řešení navrhneme až po prohlídce laku na denním světle.</p>
+
+            <p>
+              Jednokrokové leštění, vosk nebo keramická ochrana.
+              Vhodné řešení navrhneme až po prohlídce laku
+              na denním světle.
+            </p>
           </div>
-          <div class="price-row-value">
-            <span class="from">od</span>
-            <span class="amount">3 500 Kč</span>
+
+          <div class="service-price">
+            <span>od</span>
+            <strong>3 500 Kč</strong>
           </div>
+
         </li>
+
       </ul>
+
     </div>
+
   </section>
 
-  <section class="craft">
-    <div class="wrap craft-grid">
-      <div class="craft-copy">
-        <p class="eyebrow">Na detailu záleží</p>
-        <h2>Nejdřív stav vozu. Až potom doporučení.</h2>
-        <p>Neprodáváme předem daný balíček každému. Lak, materiály v interiéru i způsob používání auta mají vliv na to, co dává smysl udělat — a co už ne.</p>
+
+  <!-- DETAIL -->
+
+  <section class="detail-section">
+
+    <div class="wrap detail-grid">
+
+      <div class="detail-image">
+        <img
+          src="img/lesk-laku-1600.jpg"
+          alt="Detail lesklého laku vozu po ošetření"
+          loading="lazy"
+        >
       </div>
-      <figure class="craft-image">
-        <img src="img/lesk-laku-1600.jpg" alt="Detail lesklého laku vozu po ošetření" loading="lazy">
-      </figure>
+
+
+      <div class="detail-copy">
+
+        <p class="section-number">02 / Přístup</p>
+
+        <h2>
+          Nejdřív stav vozu.<br>
+          Až potom doporučení.
+        </h2>
+
+        <p>
+          Neprodáváme předem daný balíček každému.
+          Lak, materiály v interiéru i způsob používání auta
+          mají vliv na to, co dává smysl udělat — a co už ne.
+        </p>
+
+        <div class="detail-line"></div>
+
+        <p class="detail-small">
+          Každé auto před začátkem práce společně projdeme.
+          Díky tomu víte, za co platíte a co od výsledku očekávat.
+        </p>
+
+      </div>
+
     </div>
+
   </section>
 
-  <!-- JAK TO FUNGUJE -->
+
+  <!-- PROCES -->
+
   <section class="process" id="proces">
+
     <div class="wrap">
-      <div class="section-head">
-        <h2>Jak probíhá návštěva</h2>
-        <p>Tři kroky od první zprávy po předání hotového auta.</p>
+
+      <div class="process-heading">
+
+        <div>
+          <p class="section-number">03 / Proces</p>
+
+          <h2>
+            Od první zprávy<br>
+            po čisté auto.
+          </h2>
+        </div>
+
+        <p>
+          Žádné složité objednávkové formuláře.
+          Nejdřív si řekneme, co auto potřebuje,
+          a potom najdeme termín.
+        </p>
+
       </div>
 
-      <ol class="timeline">
+
+      <ol class="process-list">
+
         <li>
-          <span class="timeline-index">1</span>
-          <h3>Napíšete nám</h3>
-          <p>Pošlete pár aktuálních fotek a napište, co chcete na voze vyřešit.</p>
+
+          <span class="process-number">01</span>
+
+          <div>
+            <h3>Napíšete nám</h3>
+
+            <p>
+              Pošlete pár aktuálních fotek a napište,
+              co chcete na voze vyřešit.
+            </p>
+          </div>
+
         </li>
+
+
         <li>
-          <span class="timeline-index">2</span>
-          <h3>Domluvíme rozsah</h3>
-          <p>Potvrdíme rozsah, orientační cenu a najdeme volný termín.</p>
+
+          <span class="process-number">02</span>
+
+          <div>
+            <h3>Domluvíme rozsah</h3>
+
+            <p>
+              Potvrdíme rozsah práce, orientační cenu
+              a najdeme vhodný termín.
+            </p>
+          </div>
+
         </li>
+
+
         <li>
-          <span class="timeline-index">3</span>
-          <h3>Předáme hotové auto</h3>
-          <p>Při převzetí si spolu projdeme hotovou práci i doporučenou následnou péči.</p>
+
+          <span class="process-number">03</span>
+
+          <div>
+            <h3>Předáme hotové auto</h3>
+
+            <p>
+              Při převzetí si společně projdeme výsledek
+              i doporučení pro další péči.
+            </p>
+          </div>
+
         </li>
+
       </ol>
+
     </div>
+
   </section>
+
 
   <!-- KONTAKT -->
+
   <section class="contact" id="kontakt">
-    <div class="wrap contact-grid">
-      <div class="contact-main">
-        <h2>Domluvit termín</h2>
-        <p>
-          Napište model vozu, rok výroby a co chcete vyřešit. Přiložte klidně pár fotek — odpovíme nejpozději následující pracovní den.
+
+    <div class="wrap">
+
+      <div class="contact-top">
+
+        <p class="section-number">04 / Kontakt</p>
+
+        <h2>
+          Máte auto,<br>
+          které potřebuje péči?
+        </h2>
+
+        <p class="contact-lead">
+          Napište nám model vozu, rok výroby a co chcete
+          vyřešit. Přiložte klidně pár fotek.
         </p>
-        <a href="mailto:ahoj@glossgarage.cz" class="contact-email">ahoj@glossgarage.cz</a>
+
+        <a
+          href="mailto:ahoj@glossgarage.cz"
+          class="contact-email"
+        >
+          ahoj@glossgarage.cz
+          <span aria-hidden="true">↗</span>
+        </a>
+
       </div>
-      <div class="contact-details">
+
+
+      <div class="contact-bottom">
+
         <div>
-          <h3>Adresa</h3>
-          <p>Studio Gloss Garage<br>Wolkerova 12, Praha 6<br><span class="detail-note">Jen po předchozí domluvě</span></p>
+          <span>Studio</span>
+
+          <p>
+            Gloss Garage<br>
+            Wolkerova 12<br>
+            Praha 6
+          </p>
         </div>
+
+
         <div>
-          <h3>Otevírací doba</h3>
-          <p>Po–Pá 9:00–18:00<br>So 9:00–13:00 (po domluvě)</p>
+          <span>Otevírací doba</span>
+
+          <p>
+            Po–Pá 9:00–18:00<br>
+            So 9:00–13:00
+          </p>
         </div>
+
+
+        <div>
+          <span>Poznámka</span>
+
+          <p>
+            Pouze po předchozí domluvě.
+          </p>
+        </div>
+
       </div>
+
     </div>
+
   </section>
 
 </main>
 
+
 <footer class="site-footer">
+
   <div class="wrap footer-row">
+
     <p>© 2026 Gloss Garage</p>
-    <p class="footer-note">Ukázkový studentský projekt — kontaktní údaje jsou fiktivní.</p>
+
+    <p>
+      Ukázkový studentský projekt · Kontaktní údaje jsou fiktivní.
+    </p>
+
   </div>
+
 </footer>
 
 </body>
